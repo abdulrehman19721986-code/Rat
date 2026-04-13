@@ -1,0 +1,7 @@
+:root{--bg:#0d0d0d;--accent:#00ff88;--font:'Inter',sans-serif}
+body{margin:0;background:var(--bg);color:#fff;font-family:var(--font)}
+header{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem}
+button{background:var(--accent);color:#000;border:0;padding:.5rem 1rem;border-radius:4px;cursor:pointer}
+#grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;padding:2rem}
+.card{background:#1a1a1a;border:1px solid #222;border-radius:8px;padding:1rem}
+.card img{width:100%;border-radius:4px}
